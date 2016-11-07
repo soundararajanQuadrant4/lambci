@@ -32,10 +32,10 @@ exports.DEFAULT_CONFIG = {
     GITHUB_TOKEN: '8d3942aef439ed8d2f50e7e8778c2a2f65e8508b',
     SLACK_TOKEN: 'xoxb-101217864516-AjvA0FEUFdrjqblB4FetxCI9',
   },
-  s3Bucket: '',
+  s3Bucket: 'samplesource',
   notifications: {
     slack: {
-      channel: '#general',
+      channel: '',
       username: 'notificationfromgit',
       iconUrl: 'https://lambci.s3.amazonaws.com/assets/logo-48x48.png',
       asUser: false,
