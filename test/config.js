@@ -391,16 +391,16 @@ describe('config', function() {
           HOME: '/tmp/home',
         },
         secretEnv: {
-          AWS_ACCESS_KEY_ID: 'abcd',
-          AWS_SECRET_ACCESS_KEY: 'efgh',
+          AWS_ACCESS_KEY_ID: 'AKIAIATCRF6B3TPGVN5Q',
+          AWS_SECRET_ACCESS_KEY: '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',
         },
         inheritSecrets: true,
       }
       var env = configUtils.resolveEnv(config)
       assert.deepEqual(env, {
         HOME: '/tmp/home',
-        AWS_ACCESS_KEY_ID: 'abcd',
-        AWS_SECRET_ACCESS_KEY: 'efgh',
+        AWS_ACCESS_KEY_ID: 'AKIAIATCRF6B3TPGVN5Q',
+        AWS_SECRET_ACCESS_KEY: '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',
       })
     })
 
@@ -411,16 +411,16 @@ describe('config', function() {
         },
         secretEnv: {
           HOME: '/tmp/secret',
-          AWS_ACCESS_KEY_ID: 'abcd',
-          AWS_SECRET_ACCESS_KEY: 'efgh',
+          AWS_ACCESS_KEY_ID: 'AKIAIATCRF6B3TPGVN5Q',
+          AWS_SECRET_ACCESS_KEY: '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',
         },
         inheritSecrets: true,
       }
       var env = configUtils.resolveEnv(config)
       assert.deepEqual(env, {
         HOME: '/tmp/secret',
-        AWS_ACCESS_KEY_ID: 'abcd',
-        AWS_SECRET_ACCESS_KEY: 'efgh',
+        AWS_ACCESS_KEY_ID: 'AKIAIATCRF6B3TPGVN5Q',
+        AWS_SECRET_ACCESS_KEY: '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',
       })
     })
 
@@ -430,8 +430,8 @@ describe('config', function() {
           HOME: '/tmp/home',
         },
         secretEnv: {
-          AWS_ACCESS_KEY_ID: 'abcd',
-          AWS_SECRET_ACCESS_KEY: 'efgh',
+          AWS_ACCESS_KEY_ID: 'AKIAIATCRF6B3TPGVN5Q',
+          AWS_SECRET_ACCESS_KEY: '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',
         },
         inheritSecrets: false,
       }
