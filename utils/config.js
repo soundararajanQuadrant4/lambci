@@ -29,14 +29,14 @@ exports.DEFAULT_CONFIG = {
   env: {
   },
   secretEnv: {
-    GITHUB_TOKEN: '',
-    SLACK_TOKEN: '',
+    GITHUB_TOKEN: '8d3942aef439ed8d2f50e7e8778c2a2f65e8508b',
+    SLACK_TOKEN: 'xoxb-101217864516-AjvA0FEUFdrjqblB4FetxCI9',
   },
   s3Bucket: '',
   notifications: {
     slack: {
       channel: '#general',
-      username: 'LambCI',
+      username: 'notificationfromgit',
       iconUrl: 'https://lambci.s3.amazonaws.com/assets/logo-48x48.png',
       asUser: false,
     },
